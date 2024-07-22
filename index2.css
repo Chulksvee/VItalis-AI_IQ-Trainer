@@ -1,0 +1,191 @@
+
+
+/* here is my landing page sheet  */
+
+body{
+    background-image: url(./images/modern-futuristic-sci-fi-background.jpg);
+    background-size: 100vw 100vh; background-repeat: no-repeat;
+    background-position: center; background-attachment: fixed;
+  
+    }
+    
+    .mywebsite h1{
+        text-align: center; text-transform: uppercase;
+        margin-top: 190px; color:  white; text-size-adjust: 50px; text-decoration: solid;
+        font-weight: bold;
+        
+
+       
+    }
+    
+    .mywebsite p{
+        color: #ffffff; font-size: 30px; text-align: center;font-weight: bold;
+    }
+
+.p1{
+    color: rgb(255, 255, 255); text-transform: uppercase; text-decoration: none; 
+    margin-left: 570px; background-color:  rgb(125, 5, 205); border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    
+}
+
+.p1:hover{
+    border: 2px solid red ;
+    background-color: white;
+    color: hsl(276, 95%, 41%);
+    font-weight: bolder;
+
+}
+
+.rocket{
+    width: 120px;
+    position: absolute;
+    right: 8%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+    /* background-color:  hsla(276, 95%, 41%, 0.584); */
+}
+
+.btn  {
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    
+}
+
+ 
+#click{
+    color: white;
+    display: flex;
+    padding: 7px 15px!important;
+    border: 2px solid hsl(0, 100%, 50%);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+      
+}
+
+#click:hover{
+    background-color: white;
+    color: red;
+    /* color: hsl(277, 98%, 33%); */
+}
+
+@keyframes rocket{
+    0% {
+        bottom: 0;
+        opacity: 0.2;
+    }
+
+
+    100% {
+        bottom: 100%;
+        opacity: 1.5;
+    }
+}
+
+/* here is mt time */
+
+.time{
+    background-color: hsla(0, 0%, 0%, 0.677);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    width: 10%;
+    margin-left: 10px;
+    display: flex;
+    gap: 10PX;
+    justify-content: center;
+    margin: auto;
+
+}
+  
+
+@media (min-width: 400px) and (max-width: 909px) {
+    body{
+      background-size: cover;
+        }
+
+
+.button{
+    margin-left: 22px;
+    margin-top: -5px;
+}
+
+.mywebsite h1{
+      
+    background-color: #ffffff00;
+    font-size: 25px!important;
+    position: relative;
+    right: 335px;
+    margin-top: 140px;
+    color: white;
+    font-weight: bolder!important;
+    letter-spacing: 2px!important;
+    width: 80%!important;
+    
+    
+}
+
+.mywebsite p1{
+
+    position: relative;
+    left: 165px!important;
+    top: -5px!important;
+    font-size: 20px!important;
+    
+    
+}
+
+
+.rocket{
+   display: none;
+    
+}
+
+.mywebsite p{
+ font-size: 15px!important;
+ font-weight: bold!important;
+ letter-spacing: 1px;
+}
+
+.btn  {
+    display: flex;
+    justify-content: center;
+    margin-top: 95px!important;
+    
+}
+
+ 
+#click{
+    color: white;
+    display: flex;
+    padding: 7px 15px!important;
+    border: 2px solid hsl(0, 100%, 50%);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: -20px;
+    margin-right: 8px!important;
+    
+      
+}
+
+#click:hover{
+    background-color: white;
+    color: red;
+    /* color: hsl(277, 98%, 33%); */
+}
+
+.fa-regular{
+    background-color: red;
+    position: relative;
+    right: 15px;
+}
+}
+
+
+

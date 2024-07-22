@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI IQ-Trainer</title>
+    <link rel="stylesheet" href="./index2.css">
+    <link rel="shortcut icon" href="./images/WhatsApp Image 2024-04-21 at 17.19.52_747f4e99.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="landingpage">
+
+
+    <div class="landingpage">
+    <!-- <div class="time" style="margin-top: 20px; font-size: 30px; margin-left: 42.5%;">
+
+        <div class="time">
+            <span id="hrs" >00</span>
+            <span>:</span> 
+            <span id="mins" >00</span>
+            <span>:</span>
+            <span id="sec" >00</span>
+        </div>
+    
+    
+    </div> -->
+
+<div class="mywebsite">
+    <h1 style="width: 50%; display: flex; justify-content: center; margin-left: 375px; font-size: 48px; letter-spacing: 2px;">Welcome to Vitalis IQ training Game!</h1>
+    <div class="image">
+       <span style="font-size: 60px; margin-left: 48%; margin-top: 30px;" ><i  class="fa-regular fa-star-of-david fa-spin fa-2xs" style="color: #FFD43B;"></i></span>
+    </div>
+    <p style="color: yellow; font-size: 20px; margin: auto; margin-top: 30px;"><span style=" font-weight: bold;"></span> Increase your IQ level by thinking like an AI &#129325</p>
+
+</div>
+
+<!-- here is my button -->
+
+<div class="button">
+    <a style="text-decoration: none; margin-left: -25px;" href="./game.html" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true"><span id="click" >Open Game</span></a>
+</div>
+
+    <!-- this is my rocket image -->
+
+    <div class="rocket">
+        <img class="rocket" src="./images/rocket-ship-png-11.png" alt="">
+     </div>
+
+</div>
+
+<!-- here is my css styling -->
+<style>
+ 
+</style>
+
+
+<script>    
+
+    //adding the current time to the date
+    var hrs = document.getElementById('hrs');
+    var mins = document.getElementById('mins');
+    var sec = document.getElementById('sec');
+    // var timeFormat = '24'; // Default to 24-hour format
+
+setInterval(() => {
+    
+    let currentTime = new Date();
+    // let currentTime = new Date;
+
+    hrs.innerHTML = (currentTime.getHours()<10?"0"+ currentTime.getHours() : currentTime.getHours())
+    mins.innerHTML = (currentTime.getMinutes()<10?"0"+ currentTime.getMinutes() : currentTime.getMinutes())
+    sec.innerHTML = (currentTime.getSeconds()<10?"0"+ currentTime.getSeconds() : currentTime.getSeconds())
+
+    // hrs.innerHTML = (currentTime.getHours() < 10 ? "0" + currentTime.getHours() : currentTime.getHours());
+    // mins.innerHTML = (currentTime.getMinutes() < 10 ? "0" + currentTime.getMinutes() : currentTime.getMinutes());
+    // sec.innerHTML = (currentTime.getSeconds() < 10 ? "0" + currentTime.getSeconds() : currentTime.getSeconds());
+}, 1000);
+
+</script>
+</body>
+</html>

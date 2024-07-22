@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI IQ-Trainer</title>
+    <link rel="stylesheet" href="./game.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="./images/WhatsApp Image 2024-04-21 at 17.19.52_747f4e99.jpg" type="image/x-icon">
+</head>
+<body>
+    
+    <div class="container game-container text-center">
+        <h1 class="mb-4" style="letter-spacing: 2px;" >Guessing Game!</h1>
+        <p class="leade mb-4" style="font-weight: bold; letter-spacing: 1px;" >In just 3 attempts, guess any number between 1 and 15! and get a Matching result with the AI &#129322</p>
+        <input type="text" id="guessName" class="form-control mb-3" placeholder="Enter your Name">
+        <input type="number" id="guessInput" class="form-control mb-3" placeholder="Enter your guess">
+        <button id="guessButton" class="btn btn-primary btn-block mb-3" >Guess</button>
+        <p id="resultMessage" class="lead" style="color: red; font-weight: bold; letter-spacing: 2px;"></p>
+        <button id="restartButton" class="btn btn-danger btn-block mt-3" style="display: none;" >Restart Game</button>
+    </div>
+
+    <div style="position: absolute; left: 197px; bottom: 140px;" class="bath">
+    <button style="color: white; font-weight: bolder; background-color: black; text-decoration: none;" id="contact" type="button" class="btn btn-outline-light"><a href="./contact.html" style="color: white;" >Contact the Developer</a></button>
+    </div>
+
+  <script src="./game.js" ></script>  
+</body>
+</html>

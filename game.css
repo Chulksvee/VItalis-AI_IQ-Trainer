@@ -1,0 +1,76 @@
+body{
+    background-image: url(./images/play-1738080_1280.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.game-container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: red 1px 1px 2px 3px;
+    max-width: 40%;
+}
+
+.bath{
+    text-decoration: none;
+}
+
+.bath :hover{
+    background-color: white;
+    color: red!important;
+    border: 1px solid red;
+    padding: 5px 1px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+
+@media (min-width: 400px) and (max-width: 909px) {
+
+    body{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+        }
+
+
+        .game-container{
+            max-width: 90%;
+            box-shadow: red 1px 1px 3px 3px;
+            position: relative;
+            right: 1px !important;
+            /* max-width: 100%;
+            margin-left: 19px!important; */
+            
+            
+            
+            /* margin-right: 35px!important; */
+            
+        }
+
+        .bath{
+          position: absolute;
+          left: 28px!important;
+          bottom: 125px!important;
+         
+        }
+
+        .bath :hover{
+            background-color: white;
+            color: red!important;
+            border: 1px solid red;
+            padding: 5px 1px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+}

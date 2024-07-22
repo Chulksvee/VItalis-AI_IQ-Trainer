@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI IQ-Trainer</title>
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="shortcut icon" href="./images/WhatsApp Image 2024-04-21 at 17.19.52_747f4e99.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="landingpage">
+
+
+    <div class="landingpage">
+    <!-- <div class="time" style="margin-top: 20px; font-size: 30px; margin-left: 42.5%;">
+
+        <div class="time">
+            <span id="hrs" >00</span>
+            <span>:</span> 
+            <span id="mins" >00</span>
+            <span>:</span>
+            <span id="sec" >00</span>
+        </div>
+    
+    
+    </div> -->
+<div class="container">
+    <div class="image">
+        <img style="width: 10%; border-radius: 40%; margin-left: 44%; margin-top: 30px;"  src="./images/WhatsApp Image 2024-04-21 at 17.19.52_747f4e99.jpg" alt="">
+    </div>
+
+    <h2 class="heh" style="font-weight: bolder; letter-spacing: 2px; color: white; font-size: 35px; text-align: center;" > You Enjoyed the Game right? &#129325 </h2>
+    <p class="hep" style="font-weight:bold ; color: yellow; text-align: center; font-size: 18px;" >Please support me by clicking & following my pages below....</p>
+
+    <div class="list">
+        <ul class="list12" style="margin-left: 35%;">
+            <a class="list1" style="color: white; font-size: 20px; font-weight: bolder; text-decoration: none; letter-spacing: 2px; padding: 10px;" href="https://youtube.com/@VitalisOfoegbu-um1mh?si=x6hBMeteIzLr_EUT"><li>YOUTUBE&#129325</li></a>
+            <a class="list1" style="color: white; font-size: 20px; font-weight: bolder; text-decoration: none; letter-spacing: 2px; padding: 10px; " href="https://www.facebook.com/profile.php?id=61553722241541&mibextid=LQQJ4d"><li>FACEBOOK&#129325</li></a>
+            <a class="list1" style="color: white; font-size: 20px; font-weight: bolder; text-decoration: none; letter-spacing: 2px; padding: 10px; " href="https://www.instagram.com/chulks_vee?igsh=bWo3NjFjOGR0NGQ3&utm_source=qr"><li>INSTAGRAM&#129325</li></a>
+            <a class="list1" style="color: white; font-size: 20px; font-weight: bolder; text-decoration: none; letter-spacing: 2px; padding: 10px; " href="http://www.tiktok.com/@chulksvee"><li>TIKTOK&#129325</li></a>
+            <a class="list1" style="color: yellow; font-size: 20px; font-weight: bolder; text-decoration: none; letter-spacing: 2px; padding: 10px; " href="https://chulksvee.github.io/Bank_Portfolio/"><li>Check out my Bank App!&#129325</li></a>
+        </ul>
+    </div>
+
+</div>
+
+
+<!-- Here is the js for Digital Clock -->
+
+<script>    
+
+    //adding the current time to the date
+    var hrs = document.getElementById('hrs');
+    var mins = document.getElementById('mins');
+    var sec = document.getElementById('sec');
+    // var timeFormat = '24'; // Default to 24-hour format
+
+setInterval(() => {
+    
+    let currentTime = new Date();
+    // let currentTime = new Date;
+
+    hrs.innerHTML = (currentTime.getHours()<10?"0"+ currentTime.getHours() : currentTime.getHours())
+    mins.innerHTML = (currentTime.getMinutes()<10?"0"+ currentTime.getMinutes() : currentTime.getMinutes())
+    sec.innerHTML = (currentTime.getSeconds()<10?"0"+ currentTime.getSeconds() : currentTime.getSeconds())
+
+    // hrs.innerHTML = (currentTime.getHours() < 10 ? "0" + currentTime.getHours() : currentTime.getHours());
+    // mins.innerHTML = (currentTime.getMinutes() < 10 ? "0" + currentTime.getMinutes() : currentTime.getMinutes());
+    // sec.innerHTML = (currentTime.getSeconds() < 10 ? "0" + currentTime.getSeconds() : currentTime.getSeconds());
+}, 1000);
+
+</script>
+</body>
+</html>
